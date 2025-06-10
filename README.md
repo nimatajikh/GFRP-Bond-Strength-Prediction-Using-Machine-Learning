@@ -4,19 +4,21 @@ This repository contains the source code, dataset, and simulation results used i
 # **Overview**
 
 Glass fiber-reinforced polymer (GFRP) bars are increasingly used in reinforced concrete due to their corrosion resistance and high strength-to-weight ratio. However, their bond performance with concrete—especially at the anchorage interface—remains a concern. This study applies advanced ensemble machine learning algorithms, combined with genetic algorithm (GA) optimization, to predict:
+
 Flexural bond strength
+
 Failure mode (bar rupture vs. bond failure)
 of handmade mat-anchored sand-coated GFRP bars embedded in concrete.
 
 # **Contents**
 
-notebooks/: Jupyter notebooks for model training, tuning, and evaluation.
+Notebooks: Jupyter notebooks for model training, tuning, and evaluation.
 
-data/: Preprocessed experimental dataset.
+Data: Preprocessed experimental dataset.
 
-models/: Scripts and saved models for ensemble ML algorithms and XGBoost classification.
+Models: Scripts and saved models for ensemble ML algorithms and XGBoost classification.
 
-results/: Performance plots, SHAP analysis, and failure mode classification results.
+Results: Performance plots, SHAP analysis, and failure mode classification results.
 
 # **Requirements**
 
